@@ -1,6 +1,6 @@
 package com.miaosha.miaosha.utils;
 
-import com.miaosha.miaosha.enums.CodeMsg;
+import com.miaosha.miaosha.vo.enums.CodeMsg;
 import com.miaosha.miaosha.vo.Result;
 
 /**
@@ -19,6 +19,10 @@ public class ResultUtil {
 
     public static Result success(CodeMsg codeMsg) {
         return success(codeMsg ,null);
+    }
+
+    public static Result success(Object object) {
+        return success(CodeMsg.SUCCESS, object);
     }
 
     public static Result error(CodeMsg codeMsg) {

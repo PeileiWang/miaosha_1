@@ -1,4 +1,4 @@
-package com.miaosha.miaosha.enums;
+package com.miaosha.miaosha.vo.enums;
 
 /**
  * Created by WangPeilei
